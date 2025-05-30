@@ -14,7 +14,7 @@ body {
     font-size: 16px;
     padding: 4px 8px;
     margin: 25px 20px;
-    position: fixed;
+    position: absolute;
 }
 
 h1 {
@@ -47,7 +47,8 @@ h1 {
     margin: 16px auto;
 }
 
-a {
+.menu-item a,
+a.home {
     text-decoration: none;
 }
 
@@ -61,8 +62,9 @@ a {
 }
 
 
-img {
-    height:400px;
+.recipe img {
+    height: 400px;
+    width: 630px;
     display: block;
     padding: 10px;
     margin: 0 auto;
