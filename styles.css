@@ -1,0 +1,69 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgba(15, 15, 0, 0.897);
+}
+
+.banner {
+    background-color: rgb(233, 175, 27);
+    width: 600px;
+    padding: 5px;
+    margin: 25px auto;
+}
+
+.home button {
+    font-size: 16px;
+    padding: 4px 8px;
+    margin: 25px 20px;
+    position: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menu {
+    border: 12px double;
+    padding: 0 30px;
+    width: 600px;
+    margin: 30px auto;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+.menu-item {
+    border-bottom: 5px dotted;
+    padding: 60px;
+    margin-bottom: 0px;
+}
+
+.last {
+    border: 0;
+}
+
+.menu button {
+    font-size: 32px;
+    display: block;
+    padding: 10px 30px;
+    margin: 16px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipe {
+    border: 12px double;
+    padding: 10px 10px;
+    width: 650px;
+    margin: 10px auto;
+    background-color: lightgoldenrodyellow;
+
+}
+
+
+img {
+    height:400px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
