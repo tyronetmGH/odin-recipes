@@ -5,7 +5,7 @@ body {
 
 .banner {
     background-color: rgb(233, 175, 27);
-    width: 600px;
+    max-width: 600px;
     padding: 5px;
     margin: 25px auto;
 }
@@ -24,7 +24,7 @@ h1 {
 .menu {
     border: 12px double;
     padding: 0 30px;
-    width: 600px;
+    max-width: 600px;
     margin: 30px auto;
     background-color: lightgoldenrodyellow;
     
