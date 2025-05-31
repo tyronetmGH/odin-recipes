@@ -56,7 +56,7 @@ a.home {
 .recipe {
     border: 12px double;
     padding: 10px 10px;
-    width: 650px;
+    width: 40%;
     margin: 10px auto;
     background-color: lightgoldenrodyellow;
 
@@ -65,10 +65,9 @@ a.home {
 
 .recipe img {
     height: 400px;
-    width: 630px;
+    width: 95%;
     display: block;
-    padding: 10px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 /* branch into 
@@ -78,3 +77,18 @@ a.home {
           box-sizing: border-box;
 } 
 in the future*/
+
+/* add fixed header and footers by putting a 
+margin-top/bottom on the body 
+
+set page width with max-width= on body css*/
+
+/* use clear: left/right/both on elements after 
+floated elements to stop them from overlapping */
+
+/* add the class
+.clearfix {
+   overflow: auto;
+   zoom: 1
+}
+to keep large floated images/sections in their container */
